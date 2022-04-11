@@ -51,13 +51,14 @@ img {
     color: white;
     cursor: pointer;
     font-weight: 500;
+    box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
 .h1 {
     text-transform: uppercase;
     position: absolute;
     left: 50%;
-    top: 35%;
+    top: 30%;
     width: 100%;
     text-align: center;
     font-size: 100px;
@@ -74,4 +75,11 @@ img {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -140px);
+}
+
+.icon {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
 }
