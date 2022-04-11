@@ -5,7 +5,6 @@ btn.addEventListener('click', () => {
     toggleModal(switchClass);
 });
 
-
 function switchClass(modal) {
     modal.classList.toggle('show')
     modal.classList.toggle('hide')

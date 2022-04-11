@@ -58,6 +58,8 @@ img {
     position: absolute;
     left: 50%;
     top: 35%;
+    width: 100%;
+    text-align: center;
     font-size: 100px;
     transform: translateX(-50%);
 }
